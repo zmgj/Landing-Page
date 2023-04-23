@@ -42,7 +42,7 @@ a {
     height: 250px;
 }
 .text1 {
-    font-size: 48px;
+    font-size: 55px;
     font-weight: 900;          
 }
 .text2 {
@@ -103,9 +103,7 @@ a {
     background-color: #E5E7EB;
     display:flex;
     flex-direction: column;
-    padding: 100px 500px;
-    
-    
+    padding: 100px 500px;   
 }
 .quote {
     font-size: 36px;
@@ -121,3 +119,49 @@ a {
     font-size: 20px;
     justify-content: flex-end;
 }
+
+.container4{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.bluecontainer {
+    width: 1200px;
+    height: 150px;
+    background-color: #3882F6;
+    display: flex;
+    flex-shrink: auto;
+    justify-content: space-around;
+    color:white;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.signup2 {
+    background-color: #3882F6;
+    color: white;
+    height: 40px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border-color: white;
+    border-width: thick;  
+}
+
+.text4 .top {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.text4 .bottom {
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    padding: 50px;
+  }
