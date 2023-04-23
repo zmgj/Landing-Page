@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    
 }
 
 .header { 
@@ -96,4 +97,27 @@ a {
 
 .text {
     color:rgb(82, 82, 82)
+}
+
+.container3 {
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    padding: 100px 500px;
+    
+    
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 400;
+    display: flex;
+    flex-shrink: 1;
+}
+.quoter {
+    font-weight: 900;
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-end;
 }
